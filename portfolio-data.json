@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "title": "Portfolio Website Data Configuration",
+    "description": "Consolidated data configuration for all JavaScript modules in the portfolio website",
+    "version": "1.0.0",
+    "lastUpdated": "2024-11-24"
+  },
+  "homepage": {
+    "nameLoopWords": {
+      "description": "Words that loop in the name animation on the homepage",
+      "words": [
+        "Nashwa Hamido",
+        "a Game Artist",
+        "a 3D Artist",
+        "a Concept Artist"
+      ],
+      "animationDuration": 1.2,
+      "animationEasing": "elastic.out(1, 0.85)",
+      "loopDelay": 2,
+      "initialDelay": 1
+    },
+    "loadingScreen": {
+      "description": "Loading screen animation configuration",
+      "duration": 4,
+      "timeScale": 2.5,
+      "fadeOutDuration": 500,
+      "animationStartDelay": 100,
+      "storageType": "sessionStorage",
+      "storageKey": "hasVisitedHomepage"
+    },
+    "particleSystem": {
+      "particleCount": 150,
+      "mouseInteractionRadius": 150,
+      "particleSize": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "velocity": {
+        "min": -0.5,
+        "max": 0.5
+      },
+      "damping": 0.98,
+      "connectionDistance": 80,
+      "connectionOpacity": 0.15,
+      "colors": {
+        "particle": "rgba(253, 205, 0, 0.8)",
+        "connection": "rgba(234, 125, 109, {opacity})"
+      }
+    }
+  },
+  "about": {
+    "particleSystem": {
+      "particleCount": 150,
+      "mouseInteractionRadius": 100,
+      "particleSize": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "velocity": {
+        "min": -0.5,
+        "max": 0.5
+      },
+      "damping": 0.98,
+      "connectionDistance": 80,
+      "connectionOpacity": 0.15,
+      "colors": {
+        "particle": "rgba(253, 205, 0, 0.8)",
+        "connection": "rgba(234, 125, 109, {opacity})"
+      }
+    }
+  },
+  "education": {
+    "particleSystem": {
+      "particleCount": 150,
+      "mouseInteractionRadius": 100,
+      "particleSize": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "velocity": {
+        "min": -0.5,
+        "max": 0.5
+      },
+      "damping": 0.98,
+      "connectionDistance": 80,
+      "connectionOpacity": 0.15,
+      "colors": {
+        "particle": "rgba(253, 205, 0, 0.8)",
+        "connection": "rgba(234, 125, 109, {opacity})"
+      }
+    }
+  },
+  "skills": {
+    "particleSystem": {
+      "particleCount": 150,
+      "mouseInteractionRadius": 100,
+      "particleSize": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "velocity": {
+        "min": -0.5,
+        "max": 0.5
+      },
+      "damping": 0.98,
+      "connectionDistance": 80,
+      "connectionOpacity": 0.15,
+      "colors": {
+        "particle": "rgba(253, 205, 0, 0.8)",
+        "connection": "rgba(234, 125, 109, {opacity})"
+      }
+    },
+    "progressBars": {
+      "animationDelay": 300,
+      "transitionDuration": "0.8s",
+      "transitionEasing": "cubic-bezier(0.4, 0, 0.2, 1)"
+    }
+  },
+  "contact": {
+    "particleSystem": {
+      "particleCount": 150,
+      "mouseInteractionRadius": 100,
+      "particleSize": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "velocity": {
+        "min": -0.5,
+        "max": 0.5
+      },
+      "damping": 0.98,
+      "connectionDistance": 80,
+      "connectionOpacity": 0.15,
+      "colors": {
+        "particle": "rgba(253, 205, 0, 0.8)",
+        "connection": "rgba(234, 125, 109, {opacity})"
+      }
+    },
+    "form": {
+      "apiEndpoint": "https://api.web3forms.com/submit",
+      "submitButtonStates": {
+        "default": "Send Message",
+        "loading": "Sending...",
+        "success": "Message Sent!"
+      }
+    },
+    "confetti": {
+      "count": 150,
+      "colors": ["#ea7d6d", "#fdcd00", "#ea7d6d", "#fdcd00"],
+      "animationDuration": {
+        "min": 2,
+        "max": 4
+      },
+      "maxDelay": 0.5,
+      "displayDuration": 5000
+    }
+  },
+  "carousel3d": {
+    "navigation": {
+      "keyboardEnabled": true,
+      "leftKey": "ArrowLeft",
+      "rightKey": "ArrowRight"
+    },
+    "positions": {
+      "classes": ["active", "prev", "next", "hidden-left", "hidden-right"]
+    }
+  },
+  "carousels": {
+    "portfolio": {
+      "title": "Key Art & Branding",
+      "description": "3D carousel showcase for key art and branding materials",
+      "autoPlayDelay": 6000,
+      "items": [
+        {
+          "id": 0,
+          "title": "The Cycle: Stormchasers",
+          "type": "image",
+          "src": "cycle_stormchasers.png",
+          "alt": "The Cycle Season Three Stormchasers key art"
+        },
+        {
+          "id": 1,
+          "title": "DLC Key Art",
+          "type": "image",
+          "src": "dlc_keyart.png",
+          "alt": "DLC Key Art"
+        },
+        {
+          "id": 2,
+          "title": "Crayta High School Horror",
+          "type": "image",
+          "src": "crayta_highschool_horror.png",
+          "alt": "Crayta High School Horror key art"
+        },
+        {
+          "id": 3,
+          "title": "Crayta Halloween",
+          "type": "image",
+          "src": "crayta_halloween.png",
+          "alt": "Crayta Halloween key art"
+        }
+      ]
+    },
+    "capturedscenes": {
+      "title": "Captured Scenes",
+      "description": "3D carousel showcase for captured game scenes",
+      "autoPlayDelay": 6000,
+      "items": [
+        {
+          "id": 0,
+          "title": "Crafting Area Scene",
+          "type": "image",
+          "src": "TC_crafting.png",
+          "alt": "Crafting area scene"
+        },
+        {
+          "id": 1,
+          "title": "Sci-Fi Monster",
+          "type": "image",
+          "src": "monster2.png",
+          "alt": "Sci-fi monster"
+        },
+        {
+          "id": 2,
+          "title": "Soldier in Base",
+          "type": "image",
+          "src": "runnercharacter.jpg",
+          "alt": "Soldier in base"
+        },
+        {
+          "id": 3,
+          "title": "Sci-Fi Monster",
+          "type": "image",
+          "src": "monster1.png",
+          "alt": "Sci-fi monster"
+        },
+        {
+          "id": 4,
+          "title": "Sci-Fi Monsters with Soldier",
+          "type": "image",
+          "src": "scifi_soldier+monsters.png",
+          "alt": "Sci-fi monsters with soldier"
+        },
+        {
+          "id": 5,
+          "title": "Thanksgiving Dinner",
+          "type": "image",
+          "src": "crayta_thanksgiving.png",
+          "alt": "Thanksgiving dinner"
+        },
+        {
+          "id": 6,
+          "title": "Boardgame Scene",
+          "type": "image",
+          "src": "boardgame.png",
+          "alt": "Boardgame scene"
+        },
+        {
+          "id": 7,
+          "title": "Giant Chess",
+          "type": "image",
+          "src": "fooledya.png",
+          "alt": "Giant chess"
+        }
+      ]
+    },
+    "cinematicsandmotion": {
+      "title": "Cinematics & Motion",
+      "description": "3D carousel showcase for cinematics and motion videos",
+      "autoPlayDelay": 6000,
+      "items": [
+        {
+          "id": 0,
+          "title": "Abandoned Ship",
+          "type": "video",
+          "src": "abandonedship.mp4",
+          "poster": "abandonedshipvideoposter.png",
+          "alt": "Abandoned ship cinematic"
+        },
+        {
+          "id": 1,
+          "title": "Waterfall Clip",
+          "type": "video",
+          "src": "waterfallclip.mp4",
+          "poster": "waterfallvideoposter.png",
+          "alt": "Waterfall cinematic"
+        },
+        {
+          "id": 2,
+          "title": "Ponds",
+          "type": "video",
+          "src": "ponds.mp4",
+          "poster": "pondsvideoposter.png",
+          "alt": "Ponds cinematic"
+        },
+        {
+          "id": 3,
+          "title": "Key Art Season 3 Animation",
+          "type": "video",
+          "src": "KeyArt-S3-Animation.mp4",
+          "poster": "KeyArt-S3poster.png",
+          "alt": "Key Art Season 3 animation"
+        },
+        {
+          "id": 4,
+          "title": "Season 1 End Card",
+          "type": "video",
+          "src": "S1_endcard.mp4",
+          "poster": "S1_endcardposter.png",
+          "alt": "Season 1 end card"
+        }
+      ]
+    }
+  },
+  "carouselSettings": {
+    "aspectRatio": "16:9",
+    "centerImageScale": 1.0,
+    "centerImageOpacity": 1.0,
+    "sideImageScale": 0.75,
+    "sideImageOpacity": 0.6,
+    "transitionDuration": 0.6,
+    "transitionEasing": "cubic-bezier(0.4, 0.0, 0.2, 1)"
+  },
+  "theme": {
+    "storageKey": "theme",
+    "storageType": "localStorage",
+    "modes": ["dark", "light"],
+    "defaultMode": "dark"
+  },
+  "colors": {
+    "primary": {
+      "coral": "#ea7d6d",
+      "yellow": "#fdcd00"
+    },
+    "particles": {
+      "yellow": "rgba(253, 205, 0, 0.8)",
+      "coral": "rgba(234, 125, 109, {opacity})"
+    }
+  }
+}
